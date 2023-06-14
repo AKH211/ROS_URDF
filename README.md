@@ -1,12 +1,14 @@
 Ce repo contient un paquet ROS dans lequel il existe un modèle de main de robot décrit à l'aide de l'Urdf (format de description de robot unifié). 
-ce document décrit les étapes à suivre pour configurer et afficher le modèle dans votre environnement ROS.
 
-Prérequis
+Ce document décrit les étapes à suivre pour configurer et afficher le modèle dans votre environnement ROS.
+
+
+Prérequis:
 
 ROS (Robot Operating System) installé sur votre système
 RVIZ
 
-Instructions de configuration:
+Instructions de configuration
 
 Créez un espace de travail catkin :
 
