@@ -22,7 +22,7 @@ $ git clone https://github.com/AKH211/ROS_URDF
 
 Accédez au dossier urdf :
 
-$ cd ~/NOM DU WORKPSACE_ws/src/main_urdf/urdf
+$ cd ~/NOM DU WORKPSACE_ws/src/ROS_URDF/main_urdf/urdf
 
 Sourcez la distribution ROS :
 
@@ -37,7 +37,7 @@ $ catkin build
 
 $ source devel/setup.bash
 
-Lancez la visualisation du modèle URDF  dans (NOM DU WORKPSACE_ws/src/main_urdf/urdf) avec la commande:
+Lancez la visualisation du modèle URDF  dans (NOM DU WORKPSACE_ws/src/ROS_URDF/main_urdf/urdf) avec la commande:
 
 $ roslaunch urdf_tutorial display.launch model:=main.urdf
 
