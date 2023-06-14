@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<robot name="index">
+
+	<material name="orange">
+		<color rgba="1 0.5 0 1"/>
+	</material>
+	<material name="chart" >
+               <color rgba="0.7568627450980392 0.9725490196078431 0.0392156862745098 1.0" />
+        </material>
+	
+	<material name="gold">
+		<color rgba="1 0.7 0 1"/>
+	</material>
+	<material name="coral">
+		<color rgba="0.6588235294117647 0.4745098039215686 0.0 1.0"/>
+	</material>
+	<material name="bord">
+		<color rgba="0.4823529411764706 0.0 0.17254901960784313 1.0"/>
+	</material>
+	<material name="cf">
+		<color rgba="0.023529411764705882 0.6039215686274509 0.9529411764705882 1.0"/>
+	</material>
+
+  	<link name="paume">
+    		<visual>
+      			<geometry>
+        			<box size="0.1 0.09 0.03"/>
+      			</geometry>
+			<material name="gold"/>
+    		</visual>
+ 	 </link>
+
+         <link name="index">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.02" radius="0.01"/>
+                        </geometry>
+			<material name="chart"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+        <link name="index1">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.024" radius="0.008"/>
+                        </geometry>
+			<material name="bord"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+        <link name="index2">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.009" radius="0.007"/>
+                        </geometry>
+			<material name="cf"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+         <link name="majeur">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.02" radius="0.01"/>
+                        </geometry>
+			<material name="chart"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0.0"/>
+                </visual>
+        </link>
+         <link name="maj1">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.024" radius="0.008"/>
+                        </geometry>
+			<material name="bord"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+        <link name="maj2">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.009" radius="0.007"/>
+                        </geometry>
+			<material name="cf"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+       
+         <link name="annulaire">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.02" radius="0.01"/>
+                        </geometry>
+			<material name="chart"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+        <link name="ann1">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.024" radius="0.008"/>
+                        </geometry>
+			<material name="bord"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+        <link name="ann2">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.009" radius="0.007"/>
+                        </geometry>
+			<material name="cf"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+       
+        
+         <link name="auriculaire">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.02" radius="0.01"/>
+                        </geometry>
+			<material name="chart"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+         <link name="au1">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.024" radius="0.008"/>
+                        </geometry>
+			<material name="bord"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+        <link name="au2">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.009" radius="0.007"/>
+                        </geometry>
+			<material name="cf"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+       
+        
+         <link name="pouce">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.02" radius="0.01"/>
+                        </geometry>
+			<material name="chart"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        
+        <link name="p1">
+                <visual>
+                        <geometry>
+                                <cylinder length="0.024" radius="0.008"/>
+                        </geometry>
+			<material name="bord"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+                </visual>
+        </link>
+        <link name="sphereindex">
+		<visual>
+			<geometry>
+				<sphere radius="0.005"/>
+			</geometry>
+			<material name="orange"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+		</visual>
+	</link>
+	<link name="spheremaj">
+		<visual>
+			<geometry>
+				<sphere radius="0.005"/>
+			</geometry>
+			<material name="orange"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+		</visual>
+	</link>
+	
+	<link name="sphereann">
+		<visual>
+			<geometry>
+				<sphere radius="0.005"/>
+			</geometry>
+			<material name="orange"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+		</visual>
+	</link>
+	<link name="sphereau">
+		<visual>
+			<geometry>
+				<sphere radius="0.005"/>
+			</geometry>
+			<material name="orange"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+		</visual>
+	</link>
+	<link name="spherep">
+		<visual>
+			<geometry>
+				<sphere radius="0.005"/>
+			</geometry>
+			<material name="orange"/>
+			<origin rpy="0 1.57 0" xyz="0.01 0.0 0"/>
+		</visual>
+	</link>
+     
+	<!--<joint name="paume_to_phalange" type="fixed">
+                <parent link="paume"/>
+                <child link="index"/>
+                <origin rpy="0 0 0" xyz="0.05 -0.03 0"/>
+        </joint>-->
+  	<joint name="paume_to_phalange" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="paume"/>
+    		<child link="index"/>
+		<origin rpy="0 0 0" xyz="0.05 -0.03 0"/>
+  	</joint>
+  	<!--<joint name="paume_to_phalange1" type="fixed">
+                <parent link="paume"/>
+                <child link="majeur"/>
+                <origin rpy="0 0 0" xyz="0.05 -0.008 0"/>
+        </joint>-->
+  	<joint name="paume_to_phalange1" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="paume"/>
+    		<child link="majeur"/>
+		<origin rpy="0 0 0" xyz="0.05 -0.008 0"/>
+  	</joint>
+  	<!--<joint name="paume_to_phalange2" type="fixed">
+                <parent link="paume"/>
+                <child link="annulaire"/>
+                <origin rpy="0 0 0" xyz="0.05 0.015 0"/>
+        </joint>-->
+  	<joint name="paume_to_phalange2" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="paume"/>
+    		<child link="annulaire"/>
+		<origin rpy="0 0 0" xyz="0.05 0.015 0"/>
+  	</joint>
+  	<!--<joint name="paume_to_phalange3" type="fixed">
+                <parent link="paume"/>
+                <child link="auriculaire"/>
+                <origin rpy="0 0 0" xyz="0.05 0.035 0"/>
+        </joint>-->
+  	<joint name="paume_to_phalange3" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="paume"/>
+    		<child link="auriculaire"/>
+		<origin rpy="0 0 0" xyz="0.05 0.035 0"/>
+  	</joint>     
+  	<!--<joint name="paume_to_phalange4" type="fixed">
+                <parent link="paume"/>
+                <child link="pouce"/>
+                <origin rpy="0 0 0" xyz="-0.010 -0.03 0"/>
+        </joint>-->
+  	<joint name="paume_to_phalange4" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="paume"/>
+    		<child link="pouce"/>
+		<origin rpy="0 0 -1.8" xyz="-0.025 -0.045 -0.005"/>
+  	</joint>
+  	<joint name="index a" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="index"/>
+    		<child link="index1"/>
+		<origin rpy="0 -0.6 0" xyz="0.02 0.00 0"/>
+  	</joint>
+  	<joint name="index b" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="index1"/>
+    		<child link="index2"/>
+		<origin rpy="0 -0.7 0" xyz="0.015 0.00 0"/>
+  	</joint>
+  	<joint name="index c" type="fixed">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="index2"/>
+    		<child link="sphereindex"/>
+    		
+		<origin rpy="0 0.2 0" xyz="0.005 0 0.002"/>
+  	</joint>
+  	<joint name="maj a" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="majeur"/>
+    		<child link="maj1"/>
+		<origin rpy="0 -0.6 0" xyz="0.02 0.00 0"/>
+  	</joint>
+  	<joint name="maj b" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="maj1"/>
+    		<child link="maj2"/>
+		<origin rpy="0 -0.7 0" xyz="0.015 0.00 0"/>
+  	</joint>
+  	<joint name="maj c" type="fixed">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="maj2"/>
+    		<child link="spheremaj"/>
+    		
+		<origin rpy="0 0.2 0" xyz="0.005 0 0.002"/>
+  	</joint>
+  	<joint name="ann a" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="annulaire"/>
+    		<child link="ann1"/>
+		<origin rpy="0 -0.6 0" xyz="0.02 0.00 0"/>
+  	</joint>
+  	<joint name="ann b" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="ann1"/>
+    		<child link="ann2"/>
+		<origin rpy="0 -0.7 0" xyz="0.015 0.00 0"/>
+  	</joint>
+  	<joint name="ann c" type="fixed">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="ann2"/>
+    		<child link="sphereann"/>
+    		
+		<origin rpy="0 0.2 0" xyz="0.005 0 0.002"/>
+  	</joint>
+  	<joint name="au a" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="auriculaire"/>
+    		<child link="au1"/>
+		<origin rpy="0 -0.6 0" xyz="0.02 0.00 0"/>
+  	</joint>
+  	<joint name="au b" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="au1"/>
+    		<child link="au2"/>
+		<origin rpy="0 -0.7 0" xyz="0.015 0.00 0"/>
+  	</joint>
+  	<joint name="au c" type="fixed">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="au2"/>
+    		<child link="sphereau"/>
+    		
+		<origin rpy="0 0.2 0" xyz="0.005 0 0.002"/>
+  	</joint>
+  	<joint name="p a" type="revolute">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="pouce"/>
+    		<child link="p1"/>
+		<origin rpy="0 -0.6 0" xyz="0.02 0.00 0"/>
+  	</joint>
+  	
+  	<joint name="p b" type="fixed">
+		<axis xyz="0 1 0"/>
+		<limit effort="1000" upper="0" lower="1.57" velocity="0.5"/>
+    		<parent link="p1"/>
+    		<child link="spherep"/>
+    		
+		<origin rpy="0 0.2 0" xyz="0.0122 0 0.002"/>
+  	</joint>
+  	
+  	
+  	
+
+</robot>
